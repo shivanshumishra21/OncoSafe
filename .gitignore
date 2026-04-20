@@ -1,3 +1,6 @@
+# Kiro Configuration and Specs
+.kiro/
+
 # Task and Implementation Documentation Files
 TASK_*.md
 *_VERIFICATION*.md
