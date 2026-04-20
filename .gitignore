@@ -1,0 +1,29 @@
+# Task and Implementation Documentation Files
+TASK_*.md
+*_VERIFICATION*.md
+*_IMPLEMENTATION*.md
+*_SUMMARY*.md
+*_COMPLETE*.md
+*_FIXES*.md
+*_GUIDE*.md
+*_NOTES*.md
+
+# Specific documentation files
+API_INTEGRATION_COMPLETE.md
+ERROR_FIXES_SUMMARY.md
+FIXES_APPLIED.md
+FRONTEND_COMPLETE.md
+HOW_TO_ADD_PATIENTS.md
+LOGIN_REGISTER_GUIDE.md
+QUICK_START_API.md
+RBAC_IMPLEMENTATION_COMPLETE.md
+RBAC_QUICK_START.md
+RUNNING_THE_PROJECT.md
+SETUP_GUIDE.md
+
+# Test scripts
+test_*.py
+verify_*.py
+
+# Keep README
+!README.md
