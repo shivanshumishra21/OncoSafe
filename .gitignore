@@ -30,3 +30,93 @@ verify_*.py
 
 # Keep README
 !README.md
+
+# ============================================
+# BACKEND (Python/Django)
+# ============================================
+
+# Python
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/build/
+backend/develop-eggs/
+backend/dist/
+backend/downloads/
+backend/eggs/
+backend/.eggs/
+backend/lib/
+backend/lib64/
+backend/parts/
+backend/sdist/
+backend/var/
+backend/wheels/
+backend/*.egg-info/
+backend/.installed.cfg
+backend/*.egg
+backend/**/__pycache__/
+backend/**/*.pyc
+
+# Virtual Environment
+backend/venv/
+backend/ENV/
+backend/env/
+
+# Django
+backend/*.log
+backend/local_settings.py
+backend/db.sqlite3
+backend/db.sqlite3-journal
+backend/media/
+backend/staticfiles/
+
+# ============================================
+# FRONTEND (React/Vite)
+# ============================================
+
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/dist-ssr/
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Logs
+frontend/logs/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Local files
+frontend/*.local
+
+# ============================================
+# IDE & EDITOR
+# ============================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ============================================
+# OS
+# ============================================
+
+.DS_Store
+Thumbs.db
